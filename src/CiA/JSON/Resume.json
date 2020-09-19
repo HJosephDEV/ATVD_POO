@@ -1,0 +1,179 @@
+[
+  {
+    "Stores": [
+      {
+        "Store_ID": 123,
+        "Store_Name": "CiA Vit\u00F3ria"
+      },
+      {
+        "Store_ID": 456,
+        "Store_Name": "CiA Vila Velha"
+      },
+      {
+        "Store_ID": 789,
+        "Store_Name": "CiA Cariacica"
+      }
+    ],
+    "Orders": [
+      {
+        "Order_ID": 111,
+        "Customer_ID": 4185418,
+        "Customer_Name": "Marcio Arroba",
+        "Order_Items": [
+          {
+            "Product_ID": 11,
+            "Product_Name": "Camisa X",
+            "Product_quantity": 2,
+            "Product_price": 60
+          },
+          {
+            "Product_ID": 14,
+            "Product_Name": "Moletom X",
+            "Product_quantity": 1,
+            "Product_price": 90
+          }
+        ],
+        "Order_Amount": 150,
+        "Order_Status": "envio pendente"
+      },
+      {
+        "Order_ID": 222,
+        "Customer_ID": 541564156,
+        "Customer_Name": "Juliano Banana",
+        "Order_Items": [
+          {
+            "Product_ID": 15,
+            "Product_Name": "Moletom Y",
+            "Product_quantity": 2,
+            "Product_price": 220
+          },
+          {
+            "Product_ID": 12,
+            "Product_Name": "Camisa Y",
+            "Product_quantity": 4,
+            "Product_price": 160
+          },
+          {
+            "Product_ID": 16,
+            "Product_Name": "Moletom Z",
+            "Product_quantity": 1,
+            "Product_price": 120
+          }
+        ],
+        "Order_Amount": 500,
+        "Order_Status": "envio pendente"
+      },
+      {
+        "Order_ID": 333,
+        "Customer_ID": 565414415,
+        "Customer_Name": "Marcio do Pneu",
+        "Order_Items": [
+          {
+            "Product_ID": 13,
+            "Product_Name": "Camisa Z",
+            "Product_quantity": 1,
+            "Product_price": 35
+          }
+        ],
+        "Order_Amount": 35,
+        "Order_Status": "Despachado para entrega"
+      }
+    ],
+    "Stock": [
+      {
+        "Product_ID": 11,
+        "Product_Name": "Camisa X",
+        "Product_Price": 30,
+        "Product_Quantity": 40,
+        "Store_ID": 123,
+        "Store_Name": "CiA Vit\u00F3ria"
+      },
+      {
+        "Product_ID": 12,
+        "Product_Name": "Camisa Y",
+        "Product_Price": 40,
+        "Product_Quantity": 10,
+        "Store_ID": 123,
+        "Store_Name": "CiA Vit\u00F3ria"
+      },
+      {
+        "Product_ID": 13,
+        "Product_Name": "Camisa Z",
+        "Product_Price": 50,
+        "Product_Quantity": 40,
+        "Store_ID": 123,
+        "Store_Name": "CiA Vit\u00F3ria"
+      },
+      {
+        "Product_ID": 14,
+        "Product_Name": "Moletom X",
+        "Product_Price": 100,
+        "Product_Quantity": 75,
+        "Store_ID": 123,
+        "Store_Name": "CiA Vit\u00F3ria"
+      },
+      {
+        "Product_ID": 11,
+        "Product_Name": "Camisa X",
+        "Product_Price": 30,
+        "Product_Quantity": 60,
+        "Store_ID": 456,
+        "Store_Name": "CiA Vila Velha"
+      },
+      {
+        "Product_ID": 14,
+        "Product_Name": "Moletom X",
+        "Product_Price": 100,
+        "Product_Quantity": 72,
+        "Store_ID": 456,
+        "Store_Name": "CiA Vila Velha"
+      },
+      {
+        "Product_ID": 16,
+        "Product_Name": "Moletom Z",
+        "Product_Price": 120,
+        "Product_Quantity": 45,
+        "Store_ID": 456,
+        "Store_Name": "CiA Vila Velha"
+      },
+      {
+        "Product_ID": 11,
+        "Product_Name": "Camisa X",
+        "Product_Price": 30,
+        "Product_Quantity": 10,
+        "Store_ID": 789,
+        "Store_Name": "CiA Cariacica"
+      },
+      {
+        "Product_ID": 13,
+        "Product_Name": "Camisa Z",
+        "Product_Price": 50,
+        "Product_Quantity": 65,
+        "Store_ID": 789,
+        "Store_Name": "CiA Cariacica"
+      },
+      {
+        "Product_ID": 15,
+        "Product_Name": "Moletom Y",
+        "Product_Price": 110,
+        "Product_Quantity": 20,
+        "Store_ID": 789,
+        "Store_Name": "CiA Cariacica"
+      }
+    ],
+    "Customers": [
+      {
+        "Customer_ID": 4185418,
+        "Customer_Name": "Marcio Arroba"
+      },
+      {
+        "Customer_ID": 541564156,
+        "Customer_Name": "Juliano Banana"
+      },
+      {
+        "Customer_ID": 565414415,
+        "Customer_Name": "Marcio do Pneu"
+      }
+    ]
+  }
+]

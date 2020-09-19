@@ -1,0 +1,82 @@
+[
+  {
+    "Product_ID": 11,
+    "Product_Name": "Camisa X",
+    "Product_Price": 30,
+    "Product_Quantity": 40,
+    "Store_ID": 123,
+    "Store_Name": "CiA Vit\u00F3ria"
+  },
+  {
+    "Product_ID": 12,
+    "Product_Name": "Camisa Y",
+    "Product_Price": 40,
+    "Product_Quantity": 10,
+    "Store_ID": 123,
+    "Store_Name": "CiA Vit\u00F3ria"
+  },
+  {
+    "Product_ID": 13,
+    "Product_Name": "Camisa Z",
+    "Product_Price": 50,
+    "Product_Quantity": 40,
+    "Store_ID": 123,
+    "Store_Name": "CiA Vit\u00F3ria"
+  },
+  {
+    "Product_ID": 14,
+    "Product_Name": "Moletom X",
+    "Product_Price": 100,
+    "Product_Quantity": 75,
+    "Store_ID": 123,
+    "Store_Name": "CiA Vit\u00F3ria"
+  },
+  {
+    "Product_ID": 11,
+    "Product_Name": "Camisa X",
+    "Product_Price": 30,
+    "Product_Quantity": 60,
+    "Store_ID": 456,
+    "Store_Name": "CiA Vila Velha"
+  },
+  {
+    "Product_ID": 14,
+    "Product_Name": "Moletom X",
+    "Product_Price": 100,
+    "Product_Quantity": 72,
+    "Store_ID": 456,
+    "Store_Name": "CiA Vila Velha"
+  },
+  {
+    "Product_ID": 16,
+    "Product_Name": "Moletom Z",
+    "Product_Price": 120,
+    "Product_Quantity": 45,
+    "Store_ID": 456,
+    "Store_Name": "CiA Vila Velha"
+  },
+  {
+    "Product_ID": 11,
+    "Product_Name": "Camisa X",
+    "Product_Price": 30,
+    "Product_Quantity": 10,
+    "Store_ID": 789,
+    "Store_Name": "CiA Cariacica"
+  },
+  {
+    "Product_ID": 13,
+    "Product_Name": "Camisa Z",
+    "Product_Price": 50,
+    "Product_Quantity": 65,
+    "Store_ID": 789,
+    "Store_Name": "CiA Cariacica"
+  },
+  {
+    "Product_ID": 15,
+    "Product_Name": "Moletom Y",
+    "Product_Price": 110,
+    "Product_Quantity": 20,
+    "Store_ID": 789,
+    "Store_Name": "CiA Cariacica"
+  }
+]
