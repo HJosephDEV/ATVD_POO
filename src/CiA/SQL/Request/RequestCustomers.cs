@@ -27,15 +27,12 @@ namespace CiA.SQL.Request
                 cmd.Connection = bd.connect();
                 //executando comando SQL
                 reader = cmd.ExecuteReader();
-                //instância de lista para gravar o resultado do BD para printar no console e criar um JSON
-
-               
                
                 //passando por cada linha da tabela
                 while (reader.Read())
                 {
                     EntityCustomers customer = new EntityCustomers();
-                    //pegando os dados das colunas, convertendo
+                    //pegando os dados das colunas e convertendo
                     customer.Customer_ID = (int)reader[0];
                     customer.Customer_Name = (string)reader[1];
 

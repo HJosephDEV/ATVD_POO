@@ -23,7 +23,6 @@ namespace CiA.SQL.Request
                 cmd.ExecuteNonQuery();
                 //desconectando do BD
                 bd.disconnect(); 
-                //resultad
             }
             catch (Exception e)
             {

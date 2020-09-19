@@ -29,7 +29,6 @@ namespace CiA.SQL.Request
                 cmd.Connection = bd.connect();
                 //executando comando SQL
                 reader = cmd.ExecuteReader();
-                //instância de lista para gravar o resultado do BD para printar no console e criar um JSON
 
                
                
@@ -38,7 +37,7 @@ namespace CiA.SQL.Request
                 {
                     RequestOrderItem orderItem = new RequestOrderItem();
                     EntityOrders order = new EntityOrders();
-                    //pegando os dados das colunas, convertendo
+                    //pegando os dados das colunas e convertendo
                     order.Order_ID = (int)reader[0];
                     order.Customer_ID = (int)reader[1];
                     order.Customer_Name = (string)reader[2];
@@ -49,9 +48,12 @@ namespace CiA.SQL.Request
 
 
                 }
-
+                
+                string result;
                 //convertendo para json 
-                ConvertResultToJson(ordersList, NameAndFileType);
+                result = ConvertResultToJson(ordersList, NameAndFileType);
+                
+                Console.WriteLine(result);
                 bd.disconnect();
             }
             catch (Exception e)

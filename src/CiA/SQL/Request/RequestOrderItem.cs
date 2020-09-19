@@ -28,7 +28,6 @@ namespace CiA.SQL.Request
                 cmd.Connection = bd.connect();
                 //executando comando SQL
                 reader = cmd.ExecuteReader();
-                //instância de lista para gravar o resultado do BD para printar no console e criar um JSON
 
                
                

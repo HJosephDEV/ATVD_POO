@@ -3,7 +3,7 @@
     "Stores": [
       {
         "Store_ID": 123,
-        "Store_Name": "CiA Vit\u00F3ria"
+        "Store_Name": "CiA Vitoria"
       },
       {
         "Store_ID": 456,
@@ -86,7 +86,7 @@
         "Product_Price": 30,
         "Product_Quantity": 40,
         "Store_ID": 123,
-        "Store_Name": "CiA Vit\u00F3ria"
+        "Store_Name": "CiA Vitoria"
       },
       {
         "Product_ID": 12,
@@ -94,7 +94,7 @@
         "Product_Price": 40,
         "Product_Quantity": 10,
         "Store_ID": 123,
-        "Store_Name": "CiA Vit\u00F3ria"
+        "Store_Name": "CiA Vitoria"
       },
       {
         "Product_ID": 13,
@@ -102,7 +102,7 @@
         "Product_Price": 50,
         "Product_Quantity": 40,
         "Store_ID": 123,
-        "Store_Name": "CiA Vit\u00F3ria"
+        "Store_Name": "CiA Vitoria"
       },
       {
         "Product_ID": 14,
@@ -110,7 +110,7 @@
         "Product_Price": 100,
         "Product_Quantity": 75,
         "Store_ID": 123,
-        "Store_Name": "CiA Vit\u00F3ria"
+        "Store_Name": "CiA Vitoria"
       },
       {
         "Product_ID": 11,
