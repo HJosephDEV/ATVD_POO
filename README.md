@@ -1,9 +1,9 @@
 Toda vez que visualizar pedidos, estoque ou pegar o resumo geral, irá criar um JSON ou atualizar o anterior. O nome do arquivo e seu formato já estão definidos nos arquivos de resquest, mas o diretório precisa ser alterado. (Está na pasta JSON>JsonSerialize.cs)<br>
 
 
-==================================
-Atividade realizada usando MySql.
-==================================
+==================================<br>
+Atividade realizada usando MySql.<br>
+==================================<br>
 
 CREATE TABLE STORES
 	(
