@@ -29,7 +29,7 @@ ADD FOREIGN KEY (store_id) REFERENCES Stores(store_id);<br>
 
 INSERT INTO PRODUCTS VALUES (11, "Camisa X", 30.00), (12, "Camisa Y", 40.00), (13, "Camisa Z", 50.00),<br>
                             (14, "Moletom X", 100.00), (15, "Moletom Y", 110.00), (16, "Moletom Z", 120.00);<br>
-INSERT INTO STORES VALUES (123, "CiA Vitória"), (456, "CiA Vila Velha"), (789, "CiA Cariacica");<br>
+INSERT INTO STORES VALUES (123, "CiA Vitoria"), (456, "CiA Vila Velha"), (789, "CiA Cariacica");<br>
 INSERT INTO STOCK VALUES  (11, 40, 123), (11, 60, 456), (11, 10, 789),<br>
 						  (12, 10, 123),<br>
                           (13, 40, 123), (13, 65, 789),<br>
